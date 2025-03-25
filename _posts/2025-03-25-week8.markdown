@@ -14,4 +14,4 @@ Below is the plot showing prostitution crime counts over the years:
 
 ## Heatmap of Assaults in 2017, peak year in number of occurences
 
-<iframe src="/assets/html/assault_per_year.png" width="800" height="500"></iframe>
+<iframe src="/assets/html/assault_heatmap.html" width="800" height="500"></iframe>
