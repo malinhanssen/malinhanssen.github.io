@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Assault in San Fransisco"
+date:   2025-03-25 15:30:00 +0100
+categories: jekyll update
+---
+In this post I will present a static graphic from the curse and adding the Bokeh viz that I made last time. 
+
+## Assault Yearly Crime Counts
+
+Below is the plot showing prostitution crime counts over the years:
+
+![Assault Yearly Crime Counts](https://malinhanssen.github.io/assets/images/prostitution_yearly_crime_counts.png)
+
+## Heatmap of Assaults in 2017, peak year in number of occurences
+
+<iframe src="/assets/html/assault_per_year.png" width="800" height="500"></iframe>
