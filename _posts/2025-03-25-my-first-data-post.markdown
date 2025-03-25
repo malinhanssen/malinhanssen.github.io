@@ -12,7 +12,7 @@ Here they are:
 
 Below is the plot showing prostitution crime counts over the years:
 
-![Prostitution Yearly Crime Counts](assets/images/prostitution_yearly_crime_counts.png)
+![Prostitution Yearly Crime Counts](https://malinhanssen.github.io/assets/images/prostitution_yearly_crime_counts.png)
 
 ## Crime Distribution by Hour of the Day
 
