@@ -40,8 +40,8 @@ In our further analysis, we will focus only on these three factors, as they are 
 </div>  
 
 <div style="width: 800px; margin: 0 auto;">
-    <img src="/assets/images/img_age.jpg" width="100%">
-</div>
+    <iframe src="/assets/html/age_distribution_by_country.html" width="100%" height="500px" frameborder="0"></iframe>
+</div>  
 
 <div style="width: 800px; margin: 0 auto;">
     <img src="/assets/images/img_family.jpg" width="100%">
