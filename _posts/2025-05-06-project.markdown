@@ -20,7 +20,7 @@ categories: jekyll update
 ## Typical patient
 
 <div style="width: 800px; margin: 0 auto;">
-    <img src="/assets/images/img_patient.jpg" width="100%" height="500px">
+    <img src="/assets/images/img_patient.jpg" width="100%">
 </div>
 
 ## Alzhaimer's disease in the world
