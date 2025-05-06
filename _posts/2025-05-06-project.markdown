@@ -30,25 +30,25 @@ categories: jekyll update
 </div>  
 
 <div style="width: 800px; margin: 0 auto;">
-    <img src="/assets/images/img_ratio.jpg" width="100%" height="500px">
+    <img src="/assets/images/img_ratio.jpg" width="100%">
 </div>
 
 <div style="width: 800px; margin: 0 auto;">
-    <img src="/assets/images/img_age.jpg" width="100%" height="500px">
+    <img src="/assets/images/img_age.jpg" width="100%">
 </div>
 
 <div style="width: 800px; margin: 0 auto;">
-    <img src="/assets/images/img_family.jpg" width="100%" height="500px">
+    <img src="/assets/images/img_family.jpg" width="100%">
 </div>
 
 <div style="width: 800px; margin: 0 auto;">
-    <img src="/assets/images/img_generic.jpg" width="100%" height="500px">
+    <img src="/assets/images/img_generic.jpg" width="100%">
 </div>
 
 # World's health index
 
 <div style="width: 800px; margin: 0 auto;">
-    <img src="/assets/images/img_corr.jpg" width="100%" height="500px">
+    <img src="/assets/images/img_corr.jpg" width="100%">
 </div>
 
 
