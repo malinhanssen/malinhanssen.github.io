@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Health Index by Country</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.6.2.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="c5426f31-0c18-433a-9062-22851bee3b9f" data-root-id="p3979" style="display: contents;"></div>
+  
+    <script type="application/json" id="e03a81e0-8d78-4fe7-a13a-961c048da0b3">
+      {"79bbd186-10ee-4f1a-ab16-760cfb8c8962":{"version":"3.6.2","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p3979","attributes":{"width":800,"height":500,"x_range":{"type":"object","name":"DataRange1d","id":"p3980"},"y_range":{"type":"object","name":"DataRange1d","id":"p3981"},"x_scale":{"type":"object","name":"LinearScale","id":"p3989"},"y_scale":{"type":"object","name":"LinearScale","id":"p3990"},"title":{"type":"object","name":"Title","id":"p3982","attributes":{"text":"Alzheimer\u2019s Ratio vs Avg Normalized Health Index Value"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p4018","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p3973","attributes":{"selected":{"type":"object","name":"Selection","id":"p3974","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p3975"},"data":{"type":"map","entries":[["Avg_value_norm",{"type":"ndarray","array":{"type":"bytes","data":"Db9msXJe0z9n+P1Jo5PqP6wm6xq1ztY/lxP+afk75z88pM2REsbWP29im7dAH+Q/mNwNC3dj5j9T4xtcirHAP+M/HI4N5t4/fSAz6hHp6D+4z+4nE/njPy8mIHSB8Og/swlC3aB8zz8fzPbIjATSPyrj4q02QtI/xT+PEXnJ7j/rSQWG+uvjPztmHIyLNOc/H5pBq75J4T/c97NFnY7hPw=="},"shape":[20],"dtype":"float64","order":"little"}],["Alz_Ratio",{"type":"ndarray","array":{"type":"bytes","data":"P10rWPm62T8JoomkusXZP+Ew3fVnF98/QbIYZsjZ1T+cr8zZArvYP3mtKa5uotk/yN7REelK2j/1tQFTXxvgP/vboN1eLdk/RITiz1a41T8fKmi8jAXfP2SxrHaJYdY/Tt3/oNwk4D+xcJZUJYPaP/hUluKQsd8/ZvYmCn+d2j94hRzCtpjZPwrfoo3v5NU/Fi0/aaHW2T9I4O2HBN7YPw=="},"shape":[20],"dtype":"float64","order":"little"}],["Country",{"type":"ndarray","array":["Argentina","Australia","Brazil","Canada","China","France","Germany","India","Italy","Japan","Mexico","Norway","Russia","Saudi Arabia","South Africa","South Korea","Spain","Sweden","UK","USA"],"shape":[20],"dtype":"object","order":"little"}],["Color",["#2770E0","#2770E0","#F59738","#F0C537","#2770E0","#2770E0","#2770E0","#F59738","#2770E0","#F0C537","#F59738","#F0C537","#F59738","#2770E0","#F59738","#2770E0","#2770E0","#F0C537","#2770E0","#2770E0"]],["x_offset",[5,5,5,-5,5,5,5,5,5,5,5,5,5,5,5,-5,10,-5,5,5]],["y_offset",[0,0,0,-10,0,5,0,0,0,0,0,0,0,0,0,0,-17,4,0,0]],["align",["left","left","left","right","left","left","left","left","left","left","left","left","left","left","left","right","right","right","left","left"]]]}}},"view":{"type":"object","name":"CDSView","id":"p4019","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p4020"}}},"glyph":{"type":"object","name":"Scatter","id":"p4015","attributes":{"x":{"type":"field","field":"Avg_value_norm"},"y":{"type":"field","field":"Alz_Ratio"},"size":{"type":"value","value":8},"line_color":{"type":"field","field":"Color"},"line_alpha":{"type":"value","value":0.6},"fill_color":{"type":"field","field":"Color"},"fill_alpha":{"type":"value","value":0.6},"hatch_color":{"type":"field","field":"Color"},"hatch_alpha":{"type":"value","value":0.6}}},"nonselection_glyph":{"type":"object","name":"Scatter","id":"p4016","attributes":{"x":{"type":"field","field":"Avg_value_norm"},"y":{"type":"field","field":"Alz_Ratio"},"size":{"type":"value","value":8},"line_color":{"type":"field","field":"Color"},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"Color"},"fill_alpha":{"type":"value","value":0.1},"hatch_color":{"type":"field","field":"Color"},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Scatter","id":"p4017","attributes":{"x":{"type":"field","field":"Avg_value_norm"},"y":{"type":"field","field":"Alz_Ratio"},"size":{"type":"value","value":8},"line_color":{"type":"field","field":"Color"},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"Color"},"fill_alpha":{"type":"value","value":0.2},"hatch_color":{"type":"field","field":"Color"},"hatch_alpha":{"type":"value","value":0.2}}}}},{"type":"object","name":"GlyphRenderer","id":"p4027","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p3976","attributes":{"selected":{"type":"object","name":"Selection","id":"p3977","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p3978"},"data":{"type":"map","entries":[["x",{"type":"ndarray","array":{"type":"bytes","data":"U+MbXIqxwD8F4REW0cTBP7beB9AX2MI/aNz9iV7rwz8a2vNDpf7EP8zX6f3rEcY/ftXftzIlxz8v09VxeTjIP+HQyyvAS8k/k87B5QZfyj9EzLefTXLLP/bJrVmUhcw/qMejE9uYzT9axZnNIazOPwzDj4dov88/XuDCoFdp0D843739+vLQPxDeuFqefNE/6tyzt0EG0j/C264U5Y/SP5vaqXGIGdM/dNmkziuj0z9M2J8rzyzUPybXmohyttQ//tWV5RVA1T/Y1JBCucnVP7DTi59cU9Y/idKG/P/c1j9i0YFZo2bXPzvQfLZG8Nc/FM93E+p52D/szXJwjQPZP8bMbc0wjdk/nstoKtQW2j94ymOHd6DaP1DJXuQaKts/KshZQb6z2z8Cx1SeYT3cP9rFT/sEx9w/tMRKWKhQ3T+Mw0W1S9rdP2bCQBLvY94/PsE7b5Lt3j8YwDbMNXffP3jfmJRsAOA/5F4WQz5F4D9R3pPxD4rgP71dEaDhzuA/Kt2OTrMT4T+WXAz9hFjhPwPciatWneE/b1sHWiji4T/c2oQI+ibiP0haArfLa+I/tNl/ZZ2w4j8hWf0Tb/XiP43YesJAOuM/+lf4cBJ/4z9m13Uf5MPjP9NW8821COQ/P9ZwfIdN5D+sVe4qWZLkPxjVa9kq1+Q/hVTph/wb5T/x02Y2zmDlP11T5OSfpeU/ytJhk3Hq5T82Ut9BQy/mP6PRXPAUdOY/D1Hanua45j980FdNuP3mP+hP1fuJQuc/Vc9SqluH5z/BTtBYLcznPy3OTQf/EOg/mk3LtdBV6D8GzUhkoproP3NMxhJ03+g/38tDwUUk6T9MS8FvF2npP7jKPh7prek/JEq8zLry6T+RyTl7jDfqP/1ItylefOo/asg02C/B6j/WR7KGAQbrP0PHLzXTSus/r0at46SP6z8bxiqSdtTrP4hFqEBIGew/9MQl7xle7D9hRKOd66LsP83DIEy95+w/OkOe+o4s7T+mwhupYHHtPxNCmVcytu0/f8EWBgT77T/rQJS01T/uP1jAEWOnhO4/xT+PEXnJ7j8="},"shape":[100],"dtype":"float64","order":"little"}],["y",{"type":"ndarray","array":{"type":"bytes","data":"GI1jyP9X3j+jwB7wy0PePy702ReYL94/uSeVP2Qb3j9EW1BnMAfeP8+OC4/88t0/WsLGtsje3T/m9YHelMrdP3ApPQZhtt0//Fz4LS2i3T+HkLNV+Y3dPxLEbn3Fed0/nfcppZFl3T8oK+XMXVHdP7NeoPQpPd0/PpJbHPYo3T/JxRZEwhTdP1T50WuOAN0/3yyNk1rs3D9qYEi7JtjcP/WTA+Pyw9w/gMe+Cr+v3D8L+3kyi5vcP5YuNVpXh9w/ImLwgSNz3D+slaup717cPzjJZtG7Stw/w/wh+Yc23D9OMN0gVCLcP9ljmEggDtw/ZJdTcOz52z/vyg6YuOXbP3r+yb+E0ds/BTKF51C92z+QZUAPHanbPxuZ+zbplNs/psy2XrWA2z8xAHKGgWzbP7wzLa5NWNs/R2fo1RlE2z/SmqP95S/bP13OXiWyG9s/6AEaTX4H2z90NdV0SvPaP/5okJwW39o/ipxLxOLK2j8V0AbsrrbaP6ADwhN7oto/Kzd9O0eO2j+2ajhjE3raP0Ge84rfZdo/zNGusqtR2j9XBWradz3aP+I4JQJEKdo/bWzgKRAV2j/4n5tR3ADaP4PTVnmo7Nk/DgcSoXTY2T+aOs3IQMTZPyRuiPAMsNk/sKFDGNmb2T861f4/pYfZP8YIumdxc9k/UDx1jz1f2T/cbzC3CUvZP2ej697VNtk/8tamBqIi2T99CmIubg7ZPwg+HVY6+tg/k3HYfQbm2D8epZOl0tHYP6nYTs2evdg/NAwK9Wqp2D+/P8UcN5XYP0pzgEQDgdg/1aY7bM9s2D9g2vaTm1jYP+sNsrtnRNg/dkFt4zMw2D8CdSgLABzYP4yo4zLMB9g/GNyeWpjz1z+jD1qCZN/XPy5DFaowy9c/uXbQ0fy21z9Eqov5yKLXP8/dRiGVjtc/WhECSWF61z/lRL1wLWbXP3B4eJj5Udc//KszwMU91z+G3+7nkSnXPxITqg9eFdc/nEZlNyoB1z8oeiBf9uzWP7Kt24bC2NY/PuGWro7E1j/IFFLWWrDWP1RIDf4mnNY/3nvIJfOH1j8="},"shape":[100],"dtype":"float64","order":"little"}]]}}},"view":{"type":"object","name":"CDSView","id":"p4028","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p4029"}}},"glyph":{"type":"object","name":"Line","id":"p4024","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_width":2}},"nonselection_glyph":{"type":"object","name":"Line","id":"p4025","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.1,"line_width":2}},"muted_glyph":{"type":"object","name":"Line","id":"p4026","attributes":{"x":{"type":"field","field":"x"},"y":{"type":"field","field":"y"},"line_alpha":0.2,"line_width":2}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p3988","attributes":{"tools":[{"type":"object","name":"PanTool","id":"p4001"},{"type":"object","name":"WheelZoomTool","id":"p4002","attributes":{"renderers":"auto"}},{"type":"object","name":"BoxZoomTool","id":"p4003","attributes":{"overlay":{"type":"object","name":"BoxAnnotation","id":"p4004","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p4010","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p4009","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p4011"},{"type":"object","name":"HoverTool","id":"p4032","attributes":{"renderers":"auto","tooltips":[["Country","@Country"],["Avg Health Index","@Avg_value_norm{0.00}"],["Alz Ratio","@Alz_Ratio{0.00%}"]]}}]}},"left":[{"type":"object","name":"LinearAxis","id":"p3996","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p3997","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p3998"},"axis_label":"Alzheimer\u2019s Ratio","major_label_policy":{"type":"object","name":"AllLabels","id":"p3999"}}}],"below":[{"type":"object","name":"LinearAxis","id":"p3991","attributes":{"ticker":{"type":"object","name":"BasicTicker","id":"p3992","attributes":{"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"BasicTickFormatter","id":"p3993"},"axis_label":"Average Normalized Health Index Score","major_label_policy":{"type":"object","name":"AllLabels","id":"p3994"}}}],"center":[{"type":"object","name":"Grid","id":"p3995","attributes":{"axis":{"id":"p3991"}}},{"type":"object","name":"Grid","id":"p4000","attributes":{"dimension":1,"axis":{"id":"p3996"}}},{"type":"object","name":"Legend","id":"p4030","attributes":{"items":[{"type":"object","name":"LegendItem","id":"p4031","attributes":{"label":{"type":"value","value":"Linear Fit"},"renderers":[{"id":"p4027"}]}}]}},{"type":"object","name":"LabelSet","id":"p4033","attributes":{"source":{"id":"p3973"},"x":{"type":"field","field":"Avg_value_norm"},"y":{"type":"field","field":"Alz_Ratio"},"text":{"type":"field","field":"Country"},"x_offset":{"type":"field","field":"x_offset"},"y_offset":{"type":"field","field":"y_offset"},"text_alpha":{"type":"value","value":0.7},"text_font_size":{"type":"value","value":"8pt"},"text_align":{"type":"field","field":"align"}}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('e03a81e0-8d78-4fe7-a13a-961c048da0b3').textContent;
+              const render_items = [{"docid":"79bbd186-10ee-4f1a-ab16-760cfb8c8962","roots":{"p3979":"c5426f31-0c18-433a-9062-22851bee3b9f"},"root_ids":["p3979"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
