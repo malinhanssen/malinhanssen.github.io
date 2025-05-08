@@ -41,7 +41,11 @@ In our further analysis, we will focus only on these three factors, as they are 
     <iframe src="/assets/html/alzheimers_ratio_plot.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>  
 
-Although there was only a minimal correlation between Alzheimer's diagnosis and country of about 0.02, we found that some there were noticable differences in the ratio of patient's with Alzheimer compared to without. There are three groupings with similar ratio values. We wanted to investigate further in order to understand why.
+The age distribution, ratio of family history and ratio of genetic risk factor are all quite similar for the different nations. There are no remarkable differences so we can rule out that any of these are the cause of the difference in number of diagnoses.
+* The yellow group (Japan, Canada, Sweden, Norway) had the lowest ratios, ranging from 33.94% to 34.97%.
+* The blue group followed, with moderately higher ratios between 38.64% and 41.59%.
+* Finally, the orange group (India, Russia, South Africa, Brazil, Mexico) showed the highest ratios, ranging from 48.47% to 50.45%.
+The gap between the lowest (Japan, 33.94%) and the highest (Russia, 50.45%) is significant—a difference of 16.51 percentage points. These variations prompted us to investigate further to better understand the underlying causes.
 
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/boxplot_age_by_country.html" width="100%" height="500px" frameborder="0"></iframe>
@@ -55,12 +59,14 @@ Although there was only a minimal correlation between Alzheimer's diagnosis and 
     <iframe src="/assets/html/risk_factor_by_country_plot.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>  
 
-The age distribution, ratio of family history and ratio of genetic risk factor are all quite similar for the different nations. There are no remarkable differences so we can rule out that any of these are the cause of the difference in number of diagnoses.
+The age distribution, prevalence of family history, and ratio of genetic risk factors appear consistent across the different countries. Since there are no significant differences in these variables, we can likely rule them out as explanations for the variation in Alzheimer’s diagnoses. Given that these aspects are not major differentiators, what other factors could be driving these differences?
 
 # World's health index
 
+Our theory was that the external factor, the health care system, could be part of the answer. One way of assessing health care systems is by looking at the health care index. There are many different systems for measuring and comparing these values, therefore we look at 3 different (well-known/good/or something) rating systems: Numbeo, CEOWorld, and EU. We normalized all three and made an average health care index. 
 
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/health_index_plot.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>  
 
+From the plot ...
