@@ -29,29 +29,36 @@ In our further analysis, we will focus only on these three factors, as they are 
     <img src="/assets/images/img_patient.jpg" width="100%">
 </div>
 
-# Alzhaimer's disease in the world
+# Alzheimer's disease in the world
 
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/alzheimers_map.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>  
 
+# Ratio of Alzheimer's disease in different countries
+
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/alzheimers_ratio_plot.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>  
+
+Although there was only a minimal correlation between Alzheimer's diagnosis and country of about 0.02, we found that some there were noticable differences in the ratio of patient's with Alzheimer compared to without. There are three groupings with similar ratio values. We wanted to investigate further in order to understand why.
 
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/boxplot_age_by_country.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>  
 
 <div style="width: 800px; margin: 0 auto;">
-    <img src="/assets/html/family_history_by_country_plot.html" width="100%" height="500px" frameborder="0"></iframe>
+    <iframe src="/assets/html/family_history_by_country_plot.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>
 
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/risk_factor_by_country_plot.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>  
 
+The age distribution, ratio of family history and ratio of genetic risk factor are all quite similar for the different nations. There are no remarkable differences so we can rule out that any of these are the cause of the difference in number of diagnoses.
+
 # World's health index
+
 
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/health_index_plot.html" width="100%" height="500px" frameborder="0"></iframe>
