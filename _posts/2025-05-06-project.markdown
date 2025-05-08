@@ -61,9 +61,17 @@ The gap between the lowest (Japan, 33.94%) and the highest (Russia, 50.45%) is s
 
 The age distribution, prevalence of family history, and ratio of genetic risk factors appear consistent across the different countries. Since there are no significant differences in these variables, we can likely rule them out as explanations for the variation in Alzheimer’s diagnoses. Given that these aspects are not major differentiators, what other factors could be driving these differences?
 
-# World's health index
+# Health care systems in different countries
 
-Our theory was that the external factor, the health care system, could be part of the answer. One way of assessing health care systems is by looking at the health care index. There are many different systems for measuring and comparing these values, therefore we look at 3 different (well-known/good/or something) rating systems: Numbeo, CEOWorld, and EU. We normalized all three and made an average health care index. 
+Our theory was that the external factor, the health care system, could be part of the answer. One way of assessing health care systems is by looking at the health care index. There are many different systems for measuring and comparing these values, therefore we look at 3 different (well-known/good/or something) rating systems: Numbeo, CEOWorld, and EU. 
+
+Numbeo dataset from 2025 "estimates the overall quality of a healthcare system by evaluating key factors such as medical professionals, equipment, staff, doctors, and costs. It provides an assessment of the healthcare infrastructure, services, and resources available in a specific location." (Source their own website). 
+
+CEOWorld dataset from 2024 "The Health Care Index is a statistical analysis of the overall quality of the healthcare system, including healthcare infrastructure; healthcare professionals (doctors, nursing staff, and other health workers) competencies; cost (USD per capita); quality medicine availability, and government readiness. It also takes into consideration other factors including, environmental, access to clean water, sanitation, and government readiness to impose penalties on risks such as tobacco use and obesity. The ranking looks at 110 countries around the world on five different health variables." (source their own website). 
+
+EU dataset from 2018 "The Healthcare Access and Quality Index monitors the national levels of healthcare access and quality to understand where countries can improve health service delivery. Findings from the Global Burden of Disease (GBD) study are used to estimate a summary measure of healthcare access and quality." (Source their own website)
+
+They use different scales so we normalized all three so that they were comparable and made an average health care index. 
 
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/health_index_plot.html" width="100%" height="500px" frameborder="0"></iframe>
