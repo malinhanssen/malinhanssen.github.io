@@ -65,11 +65,11 @@ The age distribution, prevalence of family history, and ratio of genetic risk fa
 
 Our theory was that the external factor, the health care system, could be part of the answer. One way of assessing health care systems is by looking at the health care index. There are many different systems for measuring and comparing these values, therefore we look at 3 different (well-known/good/or something) rating systems: Numbeo, CEOWorld, and EU. 
 
-Numbeo dataset from 2025 "estimates the overall quality of a healthcare system by evaluating key factors such as medical professionals, equipment, staff, doctors, and costs. It provides an assessment of the healthcare infrastructure, services, and resources available in a specific location." (Source their own website). 
+Numbeo dataset from 2025 considers factors such as "medical professionals, equipment, staff, doctors, and costs. It provides an assessment of the healthcare infrastructure, services, and resources available in a specific location." (Source their own website). 
 
-CEOWorld dataset from 2024 "The Health Care Index is a statistical analysis of the overall quality of the healthcare system, including healthcare infrastructure; healthcare professionals (doctors, nursing staff, and other health workers) competencies; cost (USD per capita); quality medicine availability, and government readiness. It also takes into consideration other factors including, environmental, access to clean water, sanitation, and government readiness to impose penalties on risks such as tobacco use and obesity. The ranking looks at 110 countries around the world on five different health variables." (source their own website). 
+CEOWorld dataset from 2024 healthcare infrastructure; healthcare professionals competencies; cost; quality medicine availability, and government readiness. (source their own website). 
 
-EU dataset from 2018 "The Healthcare Access and Quality Index monitors the national levels of healthcare access and quality to understand where countries can improve health service delivery. Findings from the Global Burden of Disease (GBD) study are used to estimate a summary measure of healthcare access and quality." (Source their own website)
+EU dataset from 2018 "Findings from the Global Burden of Disease (GBD) study are used to estimate a summary measure of healthcare access and quality." (Source their own website)
 
 They use different scales so we normalized all three so that they were comparable and made an average health care index. 
 
@@ -77,4 +77,6 @@ They use different scales so we normalized all three so that they were comparabl
     <iframe src="/assets/html/health_index_plot.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>  
 
-From the plot ...
+We calculated the pearson correlation coefficient to measure the linear relationship between a country's Alzheimer’s diagnosis ratio and its health system ratings, both as scores and as ranks. For the average score the coefficient was r = -0.685, p = 0.001, which suggests a moderately strong inverse relationship and statistically significant. For the average rating r = 0.788, p = 0.00004 which shows a strong positive correlation. Countries with better health systems (higher scores and better ranks) tend to have lower proportions of Alzheimer’s diagnoses. 
+
+From the plot we can observe all the countries in the yellow group with the lowest ratio of Alzheimer's diseas all are located 
