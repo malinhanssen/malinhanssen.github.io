@@ -79,6 +79,9 @@ Countries with high-performing health systems often implement effective preventi
 # Sources
 
 [1] Alzheimer's Association. (n.d.). Public health approach to Alzheimer's. https://www.alz.org/professionals/public-health/public-health-approach
+
 [2] Alzheimer’s Society UK. (n.d.). Risk factors for Alzheimer's disease. https://www.alzheimers.org.uk/about-dementia/types-dementia/who-gets-alzheimers-disease
+
 [3] Whitmer, R. A., Sidney, S., Selby, J., Johnston, S. C., & Yaffe, K. (2005). Midlife cardiovascular risk factors and risk of dementia in late life. Neurology, 64(2), 277–281. https://doi.org/10.1212/01.WNL.0000149519.47454.F2
+
 [4] World Health Organization. (2021). Global status report on the public health response to dementia. https://www.who.int/publications/i/item/9789240033245
