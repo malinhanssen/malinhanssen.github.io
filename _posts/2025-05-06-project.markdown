@@ -8,9 +8,18 @@ categories: jekyll update
 ## Who is more prone to have Alzhaimer's disease?
 
 # Introduction
-test
+
+Alzheimer’s disease is a progressive neurodegenerative disorder that affects millions of individuals worldwide, leading to cognitive decline and memory loss. Understanding the factors that contribute to its onset is crucial for early detection and intervention. This project aims to explore the global patterns and risk factors associated with Alzheimer's disease by analyzing a comprehensive dataset encompassing various demographic and lifestyle variables.
+
+Through data analysis and visualization, the project seeks to identify significant predictors of Alzheimer's diagnosis and examine how these factors vary across different countries. By leveraging statistical methods and interactive visual tools, the study provides insights into the prevalence and distribution of Alzheimer's disease globally.
 
 # Dataset
+
+The primary dataset used in this project is the [Alzheimer’s Prediction Dataset (Global)](https://www.kaggle.com/datasets/ankushpanday1/alzheimers-prediction-dataset-global/data). Each record contains a wide range of variables, including demographic information (age, gender, education), lifestyle factors (physical activity, smoking, alcohol use), psychological and social metrics (stress, sleep quality, social engagement), and limited genetic and clinical indicators (e.g., APOE-ε4 presence, cognitive score, diagnosis outcome).
+
+Although the dataset includes some medically relevant features, the analysis in this project primarily focuses on social, behavioral, and environmental variables rather than digging deep into clinical or neurological data. This direction was chosen to better understand how broader life conditions and societal contexts relate to Alzheimer’s diagnosis patterns globally.
+
+In addition to the individual-level dataset, country-level data on healthcare system quality was incorporated to explore potential structural contributors to diagnosis rates. This includes metrics such as access, infrastructure, and national health investment, which were used in the “Health care systems in different countries” section to compare diagnosis patterns in relation to healthcare quality.
 
 # Logistic regression
 
@@ -32,7 +41,7 @@ Individuals diagnosed with Alzheimer’s tend to be older, typically above 70 ye
 
 These contrasts were visualized using targeted plots, which made the distinctions between the two groups more interpretable. 
 
-<div style="width: 800px; margin: 0 auto;">
+<div style="width: 750px; margin: 0 auto;">
     <iframe src="/assets/html/alzheimers_plot.html" width="100%" height="600px" frameborder="0"></iframe>
 </div>
 
