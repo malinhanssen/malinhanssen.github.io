@@ -23,11 +23,11 @@ In addition to the individual-level dataset, country-level data on healthcare sy
 
 # Logistic regression
 
-To identify the variables that significantly contribute to an Alzheimer's disease diagnosis, we performed a logistic regression analysis. Logistic regression is a statistical method used to model the probability of a binary outcome based on one or more predictor variables. We applied both forward selection and backward elimination, and in both cases, we reached the same conclusion: only age, family history, and genetic risk factors significantly contribute to a positive diagnosis.
+To identify the variables that significantly contribute to an Alzheimer's disease diagnosis, a logistic regression analysis was performed. Logistic regression is a statistical method used to model the probability of a binary outcome based on one or more predictor variables. Both forward selection and backward elimination were applied, and in both cases, the same conclusion was reached: only age, family history, and genetic risk factors significantly contribute to a positive diagnosis.
 
 As shown in the plot, the probability of having the disease increases with age. A family history of Alzheimer's adds approximately 18% to the probability of diagnosis at age 70. Similarly, the presence of genetic risk factors increases the probability by about 28% at the same age.
 
-In our further analysis, we will focus only on these three factors, as they are the only ones deemed relevant.
+In the further analysis, only these three factors will be considered, as they are the only ones deemed relevant.
 
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/alzheimers_prediction_plot.html" width="100%" height="500px" frameborder="0"></iframe>
@@ -63,7 +63,7 @@ The map includes an age filter, allowing users to observe how diagnosis rates ch
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/alzheimers_ratio_plot.html" width="100%" height="400px" frameborder="0"></iframe>
 </div>  
-In the plot above we can observe: 
+In the plot above the following was observe: 
 * The yellow group (Japan, Canada, Sweden, Norway) had the lowest ratios, ranging from 33.94% to 34.97%.
 * The blue group followed, with moderately higher ratios between 38.64% and 41.59%.
 * Finally, the orange group (India, Russia, South Africa, Brazil, Mexico) showed the highest ratios, ranging from 48.47% to 50.45%. 
@@ -82,7 +82,7 @@ The age distribution, prevalence of family history, and ratio of genetic risk fa
 
 # Health care systems in different countries
 
-Our theory was that the external factor, the health care system, could be part of the answer. One way of assessing health care systems is by looking at the health care index. There are many different systems for measuring and comparing these values, therefore we look at 3 different rating systems: Numbeo, CEOWORLD, and European Commission. Numbeo's dataset from 2025 considers factors such as "medical professionals, equipment, staff, doctors, and costs. It provides an assessment of the healthcare infrastructure, services, and resources available in a specific location." [1]. The CEOWorld dataset from 2024 healthcare infrastructure, healthcare professionals competencies, cost, quality medicine availability, and government readiness [2]. The European Commission's dataset from 2018 has "Findings from the Global Burden of Disease (GBD) study are used to estimate a summary measure of healthcare access and quality." [3]
+The theory was that the external factor, the health care system, could be part of the answer. One way of assessing health care systems is by looking at the health care index. There are many different systems for measuring and comparing these values, therefore we look at 3 different rating systems: Numbeo, CEOWORLD, and European Commission. Numbeo's dataset from 2025 considers factors such as "medical professionals, equipment, staff, doctors, and costs. It provides an assessment of the healthcare infrastructure, services, and resources available in a specific location." [1]. The CEOWorld dataset from 2024 healthcare infrastructure, healthcare professionals competencies, cost, quality medicine availability, and government readiness [2]. The European Commission's dataset from 2018 has "Findings from the Global Burden of Disease (GBD) study are used to estimate a summary measure of healthcare access and quality." [3]
 
 They use different scales so we normalized all three so that they were comparable and made an average health care index. 
 
@@ -90,7 +90,7 @@ They use different scales so we normalized all three so that they were comparabl
     <iframe src="/assets/html/health_index_plot.html" width="100%" height="500px" frameborder="0"></iframe>
 </div>  
 
-We calculated the Pearson correlation coefficient to assess the linear relationship between a country’s Alzheimer’s diagnosis ratio and its health system quality, using both average health index scores and ranks. For the average score, the correlation was r = -0.685, p = 0.001, indicating a moderately strong, statistically significant negative relationship. In contrast, the correlation with average rank was r = 0.788, p = 0.00004, reflecting a strong positive relationship. These results suggest that countries with better health systems — reflected in higher scores and better (i.e., lower) ranks — tend to have lower proportions of Alzheimer’s diagnoses in this dataset.
+The Pearson correlation coefficient was calculated to assess the linear relationship between a country’s Alzheimer’s diagnosis ratio and its health system quality, using both average health index scores and ranks. For the average score, the correlation was r = -0.685, p = 0.001, indicating a moderately strong, statistically significant negative relationship. In contrast, the correlation with average rank was r = 0.788, p = 0.00004, reflecting a strong positive relationship. These results suggest that countries with better health systems — reflected in higher scores and better (i.e., lower) ranks — tend to have lower proportions of Alzheimer’s diagnoses in this dataset.
 
 Why might this be the case? We propose three possible explanations (although there are definitely more):
 1. Stronger health systems support better prevention and early-life care. Countries with high-performing health systems often implement effective preventive strategies targeting cardiovascular health, diabetes, and other lifestyle-related risk factors — all known to influence dementia risk. These interventions extend beyond individual behavior and include systemic, long-term public health efforts that may not be fully captured in the dataset [4]. Even if your dataset includes lifestyle data at a single point in time, Alzheimer’s risk is shaped by decades of vascular and metabolic health [5] [6]. 
