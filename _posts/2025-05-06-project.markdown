@@ -47,10 +47,10 @@ In the plot we can observe:
 The gap between the lowest (Japan, 33.94%) and the highest (Russia, 50.45%) is significant—a difference of 16.51 percentage points. These variations prompted us to investigate further to better understand the underlying causes.
 
 <div style="width: 800px; margin: 0 auto;">
-    <iframe src="/assets/html/boxplot_age_by_country.html" width="100%" frameborder="0"></iframe>
+    <iframe src="/assets/html/boxplot_age_by_country.html" width="100%" height="400px" frameborder="0"></iframe>
 </div>  
 <div style="width: 800px; margin: 0 auto;">
-    <iframe src="/assets/html/family_history_by_country_plot.html" width="100%" frameborder="0"></iframe>
+    <iframe src="/assets/html/family_history_by_country_plot.html" width="100%" height="400px" frameborder="0"></iframe>
 </div>
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/risk_factor_by_country_plot.html" width="100%" height="400px" frameborder="0"></iframe>
