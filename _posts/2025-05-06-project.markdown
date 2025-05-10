@@ -88,7 +88,7 @@ The age distribution, prevalence of family history, and ratio of genetic risk fa
 
 The theory was that the external factor, the health care system, could be part of the answer. One way of assessing health care systems is by looking at the health care index. There are many different systems for measuring and comparing these values, therefore we look at 3 different rating systems: Numbeo, CEOWORLD, and European Commission. Numbeo's dataset from 2025 considers factors such as "medical professionals, equipment, staff, doctors, and costs. It provides an assessment of the healthcare infrastructure, services, and resources available in a specific location." [1]. The CEOWorld dataset from 2024 healthcare infrastructure, healthcare professionals competencies, cost, quality medicine availability, and government readiness [2]. The European Commission's dataset from 2018 has "Findings from the Global Burden of Disease (GBD) study are used to estimate a summary measure of healthcare access and quality." [3]
 
-They use different scales so we normalized all three so that they were comparable and made an average health care index. 
+The researchers used different scales, so all three were normalized to allow for comparison, and an average health care index was created.
 
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/health_index_plot.html" width="100%" height="500px" frameborder="0"></iframe>
