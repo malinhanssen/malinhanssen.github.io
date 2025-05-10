@@ -33,8 +33,9 @@ Individuals diagnosed with Alzheimer’s tend to be older, typically above 70 ye
 These contrasts were visualized using targeted plots, which made the distinctions between the two groups more interpretable. The findings provided a foundation for further analysis, including clustering and feature importance modeling.
 
 <div style="width: 800px; margin: 0 auto;">
-    <img src="/assets/images/img_patient.jpg" width="100%">
+    <iframe src="/assets/html/alzheimers_plot.html" width="100%" height="600px" frameborder="0"></iframe>
 </div>
+
 
 # Alzheimer's disease in the world
 
