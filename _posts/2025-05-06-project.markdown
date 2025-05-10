@@ -9,9 +9,13 @@ categories: jekyll update
 
 # Introduction
 
-Alzheimer’s disease is a progressive neurodegenerative disorder that affects millions of individuals worldwide, leading to cognitive decline and memory loss. Understanding the factors that contribute to its onset is crucial for early detection and intervention. This project aims to explore the global patterns and risk factors associated with Alzheimer's disease by analyzing a comprehensive dataset encompassing various demographic and lifestyle variables.
+Alzheimer’s disease is a progressive neurodegenerative disorder that affects millions of individuals worldwide, leading to cognitive decline and memory loss. Understanding the factors that contribute to its onset is crucial for early detection and targeted intervention.
 
-Through data analysis and visualization, the project seeks to identify significant predictors of Alzheimer's diagnosis and examine how these factors vary across different countries. By leveraging statistical methods and interactive visual tools, the study provides insights into the prevalence and distribution of Alzheimer's disease globally.
+This project aims to answer the following research question: **Who is more prone to have Alzheimer’s disease?** To address this, a global dataset was analyzed containing a diverse range of demographic, lifestyle, environmental, and genetic variables. Rather than focusing solely on clinical symptoms, the analysis emphasizes social and behavioral aspects—such as physical activity, stress, education, and social engagement—that may influence the likelihood of diagnosis.
+
+By applying statistical analysis and interactive visualizations, the project investigates how these variables contribute to diagnosis outcomes and how they vary across different regions and populations.
+
+
 
 # Dataset
 
@@ -95,7 +99,16 @@ The Pearson correlation coefficient was calculated to assess the linear relation
 Why might this be the case? We propose three possible explanations (although there are definitely more):
 1. Stronger health systems support better prevention and early-life care. Countries with high-performing health systems often implement effective preventive strategies targeting cardiovascular health, diabetes, and other lifestyle-related risk factors — all known to influence dementia risk. These interventions extend beyond individual behavior and include systemic, long-term public health efforts that may not be fully captured in the dataset [4]. Even if your dataset includes lifestyle data at a single point in time, Alzheimer’s risk is shaped by decades of vascular and metabolic health [5] [6]. 
 2. According to the World Health Organization (WHO), dementia — including Alzheimer’s — is significantly underdiagnosed in many low- and middle-income countries. This is due to lack of awareness, limited training of healthcare workers, poor access to specialist care, cultural stigma around cognitive decline. In addition, “Alzheimer’s” may be used as a catch-all diagnosis for any form of cognitive decline due to limited diagnostic tools or expertise. This can result in both underdiagnosis and overdiagnosis of Alzheimer’s specifically when it is used as the default label for undifferentiated symptoms [7].
-3. Skewed sample or dataset bias. The dataset may disproportionately reflect people with severe cognitive symptoms — especially in countries with limited healthcare access, where only the most severe cases reach clinical attention. This could lead to overrepresentation of Alzheimer’s among diagnosed cases, and underrepresentation of milder, mixed, or non-Alzheimer’s dementias, which may be more frequently diagnosed in higher-resourced systems with better diagnostic capacity. 
+3. Skewed sample or dataset bias. The dataset may disproportionately reflect people with severe cognitive symptoms — especially in countries with limited healthcare access, where only the most severe cases reach clinical attention. This could lead to overrepresentation of Alzheimer’s among diagnosed cases, and underrepresentation of milder, mixed, or non-Alzheimer’s dementias, which may be more frequently diagnosed in higher-resourced systems with better diagnostic capacity.
+
+# Conclution
+o address the research question—**Who is more prone to have Alzheimer’s disease?**—this project analyzed demographic, lifestyle, and genetic variables to identify patterns associated with a diagnosis. Logistic regression revealed that age, family history of Alzheimer’s, and the presence of the APOE-ε4 genetic risk factor are the strongest individual predictors of a positive diagnosis. These findings were further supported by visualizations showing that individuals with Alzheimer's tend to be older and more likely to have these risk factors.
+
+On a global level, an interactive choropleth map showed large disparities in diagnosis rates between countries. Countries with more developed healthcare systems—such as the United States and several European nations—tended to report higher rates of Alzheimer’s diagnoses. This suggests that access to healthcare, diagnostic infrastructure, and awareness play a significant role in detection.
+
+However, it's important to interpret these findings critically. Higher diagnosis rates may not necessarily reflect a higher true prevalence, but rather better access to diagnostic services. In contrast, underreporting in lower-resource settings may mask the actual burden of the disease. This raises concerns about global health equity and highlights the importance of strengthening diagnostic capacity in underrepresented regions.
+
+In conclusion, individuals who are older, genetically predisposed, and have a family history are more prone to developing Alzheimer’s disease. But the probability of being diagnosed also depends heavily on where a person lives and the resources available to detect the disease. This underscores the dual importance of personal risk factors and structural health inequalities in shaping our understanding of Alzheimer’s disease globally.
 
 
 # Sources
