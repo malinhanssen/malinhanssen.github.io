@@ -40,11 +40,11 @@ In our further analysis, we will focus only on these three factors, as they are 
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/alzheimers_ratio_plot.html" width="100%" height="400px" frameborder="0"></iframe>
 </div>  
-In the plot we can observe: 
+In the plot above we can observe: 
 * The yellow group (Japan, Canada, Sweden, Norway) had the lowest ratios, ranging from 33.94% to 34.97%.
 * The blue group followed, with moderately higher ratios between 38.64% and 41.59%.
-* Finally, the orange group (India, Russia, South Africa, Brazil, Mexico) showed the highest ratios, ranging from 48.47% to 50.45%.
-The gap between the lowest (Japan, 33.94%) and the highest (Russia, 50.45%) is significant—a difference of 16.51 percentage points. These variations prompted us to investigate further to better understand the underlying causes.
+* Finally, the orange group (India, Russia, South Africa, Brazil, Mexico) showed the highest ratios, ranging from 48.47% to 50.45%. <br>
+The gap between the lowest (Japan, 33.94%) and the highest (Russia, 50.45%) is significant, a difference of 16.51 percentage points. These variations prompted us to investigate further to better understand the underlying causes.
 
 <div style="width: 800px; margin: 0 auto;">
     <iframe src="/assets/html/boxplot_age_by_country.html" width="100%" height="400px" frameborder="0"></iframe>
@@ -59,7 +59,7 @@ The age distribution, prevalence of family history, and ratio of genetic risk fa
 
 # Health care systems in different countries
 
-Our theory was that the external factor, the health care system, could be part of the answer. One way of assessing health care systems is by looking at the health care index. There are many different systems for measuring and comparing these values, therefore we look at 3 different (well-known/good/or something) rating systems: Numbeo, CEOWorld, and EU. Numbeo dataset from 2025 considers factors such as "medical professionals, equipment, staff, doctors, and costs. It provides an assessment of the healthcare infrastructure, services, and resources available in a specific location." (Source their own website). CEOWorld dataset from 2024 healthcare infrastructure; healthcare professionals competencies; cost; quality medicine availability, and government readiness. (source their own website). EU dataset from 2018 "Findings from the Global Burden of Disease (GBD) study are used to estimate a summary measure of healthcare access and quality." (Source their own website)
+Our theory was that the external factor, the health care system, could be part of the answer. One way of assessing health care systems is by looking at the health care index. There are many different systems for measuring and comparing these values, therefore we look at 3 different rating systems: Numbeo, CEOWORLD, and European Commission. Numbeo dataset from 2025 considers factors such as "medical professionals, equipment, staff, doctors, and costs. It provides an assessment of the healthcare infrastructure, services, and resources available in a specific location." [1]. CEOWorld dataset from 2024 healthcare infrastructure, healthcare professionals competencies, cost, quality medicine availability, and government readiness [2]. European Commission's dataset from 2018 has "Findings from the Global Burden of Disease (GBD) study are used to estimate a summary measure of healthcare access and quality." [3]
 
 They use different scales so we normalized all three so that they were comparable and made an average health care index. 
 
@@ -70,18 +70,24 @@ They use different scales so we normalized all three so that they were comparabl
 We calculated the Pearson correlation coefficient to assess the linear relationship between a country’s Alzheimer’s diagnosis ratio and its health system quality, using both average health index scores and ranks. For the average score, the correlation was r = -0.685, p = 0.001, indicating a moderately strong, statistically significant negative relationship. In contrast, the correlation with average rank was r = 0.788, p = 0.00004, reflecting a strong positive relationship. These results suggest that countries with better health systems — reflected in higher scores and better (i.e., lower) ranks — tend to have lower proportions of Alzheimer’s diagnoses in this dataset.
 
 Why might this be the case? We propose three possible explanations (although there are definitely more):
-1. Stronger health systems support better prevention and early-life care. Countries with high-performing health systems often implement effective preventive strategies targeting cardiovascular health, diabetes, and other lifestyle-related risk factors — all known to influence dementia risk. These interventions extend beyond individual behavior and include systemic, long-term public health efforts that may not be fully captured in the dataset [1]. Even if your dataset includes lifestyle data at a single point in time, Alzheimer’s risk is shaped by decades of vascular and metabolic health [2] [3]. 
-2. According to the World Health Organization (WHO), dementia — including Alzheimer’s — is significantly underdiagnosed in many low- and middle-income countries. This is due to lack of awareness, limited training of healthcare workers, poor access to specialist care, cultural stigma around cognitive decline. In addition, “Alzheimer’s” may be used as a catch-all diagnosis for any form of cognitive decline due to limited diagnostic tools or expertise. This can result in both underdiagnosis and overdiagnosis of Alzheimer’s specifically when it is used as the default label for undifferentiated symptoms [4].
+1. Stronger health systems support better prevention and early-life care. Countries with high-performing health systems often implement effective preventive strategies targeting cardiovascular health, diabetes, and other lifestyle-related risk factors — all known to influence dementia risk. These interventions extend beyond individual behavior and include systemic, long-term public health efforts that may not be fully captured in the dataset [4]. Even if your dataset includes lifestyle data at a single point in time, Alzheimer’s risk is shaped by decades of vascular and metabolic health [5] [6]. 
+2. According to the World Health Organization (WHO), dementia — including Alzheimer’s — is significantly underdiagnosed in many low- and middle-income countries. This is due to lack of awareness, limited training of healthcare workers, poor access to specialist care, cultural stigma around cognitive decline. In addition, “Alzheimer’s” may be used as a catch-all diagnosis for any form of cognitive decline due to limited diagnostic tools or expertise. This can result in both underdiagnosis and overdiagnosis of Alzheimer’s specifically when it is used as the default label for undifferentiated symptoms [7].
 3. Skewed sample or dataset bias. The dataset may disproportionately reflect people with severe cognitive symptoms — especially in countries with limited healthcare access, where only the most severe cases reach clinical attention. This could lead to overrepresentation of Alzheimer’s among diagnosed cases, and underrepresentation of milder, mixed, or non-Alzheimer’s dementias, which may be more frequently diagnosed in higher-resourced systems with better diagnostic capacity. 
 
 
 # Sources
 
-[1] [Alzheimer's Association. (n.d.). Public health approach to Alzheimer's](https://www.alz.org/professionals/public-health/public-health-approach)
+[1] [Numbeo. (2025). Health Care Index by Country 2025.](https://www.numbeo.com/health-care/rankings_by_country.jsp)
 
-[2] [Alzheimer’s Society UK. (n.d.). Risk factors for Alzheimer's disease](https://www.alzheimers.org.uk/about-dementia/types-dementia/who-gets-alzheimers-disease)
+[2] [CEOWORLD Magazine. (2024, April 2). Countries with the best health care systems, 2024.](https://ceoworld.biz/2024/04/02/countries-with-the-best-health-care-systems-2024/)
 
-[3] [Whitmer, R. A., et al. (2005). Midlife cardiovascular risk factors and risk of dementia in late life. *Neurology*, 64(2), 277–281](https://doi.org/10.1212/01.WNL.0000149519.47454.F2)
+[3] [European Commission, Joint Research Centre. (2018). Healthcare Access and Quality Index.](https://composite-indicators.jrc.ec.europa.eu/explorer/indices/haqi/healthcare-access-and-quality-index)
 
-[4] [World Health Organization. (2021). Global status report on the public health response to dementia](https://www.who.int/publications/i/item/9789240033245)
+[4] [Alzheimer's Association. (n.d.). Public health approach to Alzheimer's](https://www.alz.org/professionals/public-health/public-health-approach)
+
+[5] [Alzheimer’s Society UK. (n.d.). Risk factors for Alzheimer's disease](https://www.alzheimers.org.uk/about-dementia/types-dementia/who-gets-alzheimers-disease)
+
+[6] [Whitmer, R. A., et al. (2005). Midlife cardiovascular risk factors and risk of dementia in late life. *Neurology*, 64(2), 277–281](https://doi.org/10.1212/01.WNL.0000149519.47454.F2)
+
+[7] [World Health Organization. (2021). Global status report on the public health response to dementia](https://www.who.int/publications/i/item/9789240033245)
 
