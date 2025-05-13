@@ -112,6 +112,9 @@ However, it's important to interpret these findings critically. Higher diagnosis
 
 In conclusion, individuals who are older, genetically predisposed, and have a family history are more prone to developing Alzheimer’s disease. But the probability of being diagnosed also depends heavily on where a person lives and the resources available to detect the disease. This underscores the dual importance of personal risk factors and structural health inequalities in shaping our understanding of Alzheimer’s disease globally.
 
+# Notebook
+
+The notebook for the assignment can be found here: [notebook](https://github.com/malinhanssen/malinhanssen.github.io/tree/main/assets/notebook)
 
 # Sources
 
